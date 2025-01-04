@@ -1,0 +1,198 @@
+.deals_container{
+  width:100%;
+  position:relative;
+  margin-top:0%;
+  padding:30px;
+  padding-bottom:10%;
+
+  overflow:visible;
+}
+
+.deals_title_container{
+  text-align: center;
+  position: relative;
+  width:70%;
+  margin:0 auto;
+}
+
+.show_graphic--right--2{
+  opacity:0;
+  top:350px;
+}
+
+.show_graphic--right--2--active{
+  opacity:1;
+  animation : side_ 2s ease-in 1 ;
+}
+
+.show_graphic--left--2{
+  opacity:0;
+  top:350px;
+}
+
+.show_graphic--left--2--active{
+  opacity:1;
+  animation : side_ 2.2s ease-in 1 ;
+}
+
+.deals_title_container .title{
+  font-size:80px;
+  font-family: "Teko";
+  position:relative;
+}
+
+.graphics--deal--flower{
+  width:75%;
+  right:60% !important;
+  transform:rotate(-90deg);
+  position:absolute;
+  top:250px;
+  z-index:0;
+}
+
+.graphics--deal--flower--2{
+  width:75%;
+  left:60% !important;
+  transform:rotate(90deg) rotateY(180deg);
+  position:absolute;
+  top:250px;
+  z-index:0;
+}
+
+.main_site_background--active{
+  animation: main_ 1.6s ease-in 1;
+  opacity:1 !important;
+}
+
+.main_site_background{
+  opacity:0;
+}
+
+.show_graphic--right--active{
+  opacity: 1;
+  right:0%;
+  animation:grow_right 1s ease-in 1 !important;
+}
+
+.show_graphic--right{
+  animation:none ;
+}
+
+.show_graphic--left{
+  animation:none;
+}
+
+.show_graphic--left--active{
+  opacity: 1;
+  left:0%;
+  animation:grow_left 1s ease-in 1 !important;
+}
+
+.graphics--deal--flower--active{
+  transform:scale(1) rotate(-90deg) translateX(0px) ;
+  opacity:1;
+  animation:grow_ 1 ease-in 1.4s !important;
+}
+
+.deals_title_container{
+  position:relative;
+}
+
+figure .title{
+  font-size:55px;
+  font-weight: normal;
+  font-family: "Teko";
+  line-height:1.3;
+  margin-top:20px;
+  z-index:999;
+  position:relative;
+  font-size:40px;
+  font-family:'Teko';
+  margin-top:20px;
+}
+
+figure .subtitle{
+  margin-top:20px;
+  font-weight: normal;
+  z-index:999;
+  position:relative;
+  font-size:20px;line-height:1.2;font-family:'Teko';margin-top:20px;
+}
+
+.cross{
+  text-decoration: line-through;
+}
+
+.divider{
+  width:50%;
+  height:1px; background: #e6e6e6;
+  margin:0 auto;
+}
+
+.fill:hover::after,
+.fill:focus::after {
+  background-position: left;
+  transform:translateX(0px);
+}
+
+figure button::after{
+  position:absolute;top:0px;left:0;z-index:9;
+  content:"";
+  width:120%;
+  height:110%;
+  outline:none;
+  transform:translateX(-200px);
+  transition:all .5s;
+  border:#4ac796 5px solid;
+  background:#4ac796!important;
+}
+
+figure button p {
+  z-index:109239239;
+  position:relative;
+}
+
+figure button:hover {
+  transform:translateY(-10px) scale(1.1);
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
+}
+
+figure button {
+   transition: all .5;
+   z-index:9;
+   box-shadow:0px 0px 10px rgba(0,0,0,.5);
+   transform:translateY(0px) scale(1);
+   transition: all .5s;
+   overflow:hidden;
+   border-radius:10px;
+   background:black;
+   padding:5px;
+   border:2px solid #4ac796;
+   font-size:25px;
+   box-shadow: inset 0 0 0 0em #4ac796;
+   color:white;
+   padding-bottom:10px;
+   position:relative;
+   font-size:25px;
+   line-height:1.2;
+   font-family:'Teko';
+   margin-top:20px;
+}
+
+figure .subtitle{
+  padding-top:5px;
+  font-size:35px !important;
+  font-family:"Teko";
+  font-weight:200;
+}
+
+.deals_title_container .title {
+  transform:scale(0);
+  opacity: 0;
+}
+
+.deals_title_container--active .title {
+  transform:scale(1);
+  opacity: 1;
+  animation: title_ap 1.2s ease-in 1;
+}

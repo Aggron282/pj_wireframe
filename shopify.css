@@ -1,0 +1,264 @@
+.no-style-button, .no-style-input[type="submit"] {
+ background: none;
+ color: inherit;
+ border: none;
+ padding: 0;
+ font: inherit;
+ cursor: pointer;
+ outline: inherit;
+}
+.logo-image{
+   position:relative;
+   top:2.5rem;
+}
+.featured-grid--subtitle{
+ font-family:"Teko";
+}
+.margin-top-2_5{
+ margin-top:2.5%;
+}
+.red{
+ color:red;
+}
+.cursive{
+ font-family:cursive;
+}
+.font-size-15{
+ font-size:15px
+}
+.slideshow--button{
+ background:black !important;
+ color:white;
+}
+.font--section-heading{
+ color:white;
+
+}
+.slider {
+ position:relative;
+ bottom:150px;
+}
+.bg{
+   opacity: 100% !important;
+   border-radius:20px;
+}
+
+.font--paragraph{
+ color:white;
+}
+a{
+   z-index:999;
+ }
+
+
+  body{
+    padding-bottom:10%;
+  }
+
+.featured-grid--root{
+  height:40rem;
+}
+
+.custom-content--root{
+   padding: 0% !important;
+   max-width: 1920px;
+}
+
+/* Desktop Responsive */
+
+@media screen and (max-width:1500px) {
+
+ .featured-grid--header{
+    position:relative;
+
+ }
+ .featured-grid--root{
+   position:relative;
+   bottom:15rem;
+ }
+
+
+}
+
+ @media screen and (max-width:1080px)  and (orientation:landscape){
+
+   .featured-grid--header{
+     margin-top:65% !important;
+   }
+   .section--footer{
+     position:relative;
+     z-index:10;
+   }
+   .featured-grid--subtitle{
+     font-family:"Teko";
+     font-size:40px !important;
+   }
+
+ }
+
+@media screen and (min-width:800px){
+
+ .featured-grid--subtitle{
+   font-size:40px;
+   font-family:"Teko" !important;
+ }
+
+ .featured-grid--title{
+   font-family:"Teko";
+   font-size:2px !important;
+ }
+
+ .product-page--root{
+   margin-top:5% !important;
+
+
+ }
+
+ .featured-grid--header{
+   margin-top:50% !important;
+ }
+
+ .logo-image{
+    margin-left: 2.5%;
+    margin-top: 2rem;
+ }
+
+ .header--bottom-row{
+     margin-top: -7.5%;
+ }
+
+ .icon--cart{
+   position:absolute;
+   top:-350%;
+ }
+
+ .header--bg{
+   background:transparent !important;
+ }
+
+ .header--menu{
+     top: -650%;
+     position: absolute;
+     width: 100%;
+ }
+
+ .header--logo{
+     position: absolute;
+     width: 100%;
+     top: -130%;
+ }
+
+ .header--search{
+   visibility:hidden;
+ }
+
+}
+
+
+ @media screen and (max-width:1000px) and (min-width:781px) and (orientation:portrait){
+      .header--top-row{
+         margin-top: -15%;
+      }
+     .logo-image{
+       position: absolute;
+       left: 35%;
+       top:500%;
+     }
+    .featured-grid--header{
+       margin-top:165% !important;
+   }
+}
+
+
+@media screen and (max-width:880px){
+
+ .font--paragraph{
+   color:white !important;
+ }
+
+ .featured-grid--subtitle{
+   font-size:25px ;
+ }
+
+ .header--root{
+   height:80px !important;
+ }
+
+ .breadcrumbs--root{
+     z-index: 999;
+     width: 100px;
+     height: 100px;
+ }
+
+ .row .row {
+   width:inherit !important;
+ }
+
+ .featured-grid--item--image{
+   margin-top:15%;
+ }
+ .featured-grid--header{
+   margin-top:170%;
+ }
+
+ .product-grid--root{
+   opacity:1;
+   margin:0;
+   margin-top:40%;
+   z-index:1;
+ }
+
+ .product-grid--root{
+   margin-top: 0 !important;
+ }
+
+ .template-collection{
+   padding-bottom:5% !important;
+ }
+
+ .slider{
+   margin-top:10%;
+ }
+
+ .collection--title{
+   color:black !important;
+ }
+
+ .section--footer{
+   margin-top:0 !important;
+ }
+
+ .font--section-heading{
+   color:white !important;
+ }
+
+  .font--section-heading{
+     font-size:25px !important;
+     margin-top:5% !important;
+     font-family:"Teko" !important;
+     text-align:center !important
+ }
+
+ .slideshow--button{
+   margin-left:19% !important;
+   margin-top:7.5% !important;
+   font-family:"Montserrat" !important;
+ }
+
+ .shopify-policy__container{
+   margin-top:15%;
+ }
+
+ .section--footer{
+   background:white !important;
+   margin-top:100%;
+ }
+
+ .product-grid--root{
+   opacity:1;
+   margin:0;
+   margin-top:40%;
+   z-index:1;
+}
+
+}

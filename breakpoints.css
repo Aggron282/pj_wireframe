@@ -1,0 +1,244 @@
+
+@media screen and (min-width: 970px) and (max-width: 991px) {
+
+  figure .deal--title {
+    font-size: 35px !important;
+  }
+
+  .fill--teas {
+    margin-top: 40%;
+  }
+
+  .fill--loyalty {
+    margin-top: 40%;
+  }
+
+  .featured-grid--root{
+    margin-top:2.5% !important;
+  }
+
+  .main_site_background--3 {
+    margin-top: 100px;
+  }
+
+  .brand_container--long .brand_title--w {
+    margin-top: 70px;
+    font-size: 50px !important;
+  }
+
+}
+
+@media screen and (min-width:809px) and (max-width:810px){
+
+  .company_name_container .title {
+      margin-top: 0px !important;
+      font-size: 55px;
+    }
+
+    .brand_container {
+      height: 200px !important;
+    }
+
+    .brand_container--big {
+      height: 250px !important;
+    }
+
+    .brand_container--sub {
+      height: 120px !important;
+    }
+
+    .featured-grid--root{
+      margin-top:1% !important;
+    }
+
+    #gallery {
+      grid-template-columns: repeat(2, minmax(180px, 1fr)) !important;
+    }
+
+    .main_site_background--2 {
+      margin-top: 300px !important;
+      height: 200px;
+    }
+
+    #product_galleries {
+      grid-template-columns: repeat(3, 1fr) !important;
+      grid-template-rows: repeat(4, auto) !important;
+    }
+
+    .about_container_product .inner_container {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: -100px;
+    }
+
+    .main_site_background {
+      width: 100%;
+      position: absolute;
+      bottom: -5.5% !important;
+    }
+
+    .subscribe_container .title {
+      font-size: 50px !important;
+    }
+
+ }
+
+@media screen and (min-width:820px) and (max-width:844px){
+
+  .company_name_container .title {
+    margin-top: -0px !important;
+    font-size: 60px !important;
+  }
+
+  .brand_container--big {
+    height: 250px !important;
+  }
+
+  .featured-grid--root {
+    position: relative !important;
+    z-index: 9999999999999999 !important;
+    margin-top: 200px ;
+  }
+
+  #gallery {
+    grid-template-columns: repeat(2, minmax(180px, 1fr)) !important;
+  }
+
+  #product_galleries {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(4, auto) !important;
+  }
+
+  .inner_container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -100px !important;
+  }
+
+  .subscribe_container .title {
+    font-size: 50px !important;
+  }
+
+}
+
+@media screen and (min-width:790px) and (max-width:809px){
+
+  .company_name_container .title {
+      margin-top: -20px !important;
+      font-size: 60px !important;
+    }
+
+  .brand_container--big {
+      height: 250px !important;
+    }
+
+  .featured-grid--root {
+      position: relative !important;
+      z-index: 9999999999999999 !important;
+      margin-top: 30px !important;
+    }
+
+  #gallery {
+    grid-template-columns: repeat(2, minmax(180px, 1fr)) !important;
+  }
+
+  #product_galleries {
+      grid-template-columns: repeat(3, 1fr) !important;
+      grid-template-rows: repeat(4, auto) !important;
+    }
+
+  .inner_container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -100px !important;
+   }
+
+  .subscribe_container .title {
+    font-size: 50px !important;
+  }
+
+}
+
+@media screen and (min-width:740px) and (max-width:756px){
+
+  .company_name_container .title {
+    margin-top: -20px !important;
+    font-size: 60px !important;
+  }
+
+  .brand_container--big {
+    height: 250px !important;
+  }
+
+  .featured-grid--root {
+    position: relative !important;
+    z-index: 9999999999999999 !important;
+    margin-top: 30px !important;
+  }
+
+  #gallery {
+    grid-template-columns: repeat(2, minmax(180px, 1fr)) !important;
+  }
+
+  #product_galleries {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(4, auto) !important;
+  }
+
+  .inner_container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -100px !important;
+  }
+
+  .subscribe_container .title {
+    font-size: 50px !important;
+  }
+
+  .header--mobile {
+    background-color: transparent !important;
+  }
+
+}
+
+@media screen and (min-width:685px) and (max-width:755px){
+
+  .company_name_container .title {
+    margin-top: -20px !important;
+    font-size: 60px !important;
+  }
+
+  .brand_container--big {
+    height: 250px !important;
+  }
+
+  .featured-grid--root {
+    position: relative !important;
+    z-index: 9999999999999999 !important;
+    margin-top: 30px !important;
+  }
+
+  #gallery {
+    grid-template-columns: repeat(2, minmax(180px, 1fr)) !important;
+  }
+
+  #product_galleries {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(4, auto) !important;
+  }
+
+  .inner_container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -100px !important;
+   }
+
+  .subscribe_container .title {
+     font-size: 50px !important;
+   }
+
+  .header--mobile {
+     background-color: transparent !important;
+   }
+
+}

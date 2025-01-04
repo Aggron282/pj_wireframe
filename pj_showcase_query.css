@@ -1,0 +1,664 @@
+.mobile_seasonal_background{
+  width:100%;
+}
+
+.mobile_background{
+  width:100%;
+  visibility:hidden;
+  position:fixed;
+}
+
+#showcase_container--mobile{
+  visibility:hidden;
+  position:fixed;
+}
+
+p, strong {
+  line-height:1.1;
+}
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+  .brand_container{
+    height:300px;
+  }
+
+  .company_name_container{
+    height:300px;
+  }
+
+  .brand_container--long{
+    height:300px;
+    width:150% ;
+  }
+
+  .brand_text{
+   font-size:55px;
+  }
+
+  .brand_title{
+    font-size:75px;
+  }
+
+  .brand_container--big{
+    height:300px;
+  }
+
+  .brand_container--sub{
+    height:145px;
+  }
+
+}
+
+@media screen
+  and (min-device-width: 1700px)
+  and (max-device-width: 2000px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+  .brand_container{
+    height:300px;
+  }
+
+  .company_name_container{
+    height:320px;
+  }
+
+  .brand_container--long{
+    height:320px;
+    width:151% ;
+  }
+
+  .brand_container--big{
+    height:300px;
+  }
+
+  .brand_container--sub{
+    height:145px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 800px) and (orientation:landscape) {
+
+
+
+  .main_site_background--2{
+    margin-top:-220px;
+    position:absolute;
+    height:300px;
+    right:-30px;
+    opacity:1;
+  }
+
+  .main_site_background--3{
+    margin-top:-220px;
+    position:absolute;
+    height:250px;
+    transform:rotateY(180deg);
+    left:-50px;
+    opacity:1;
+   }
+ .brand_container{
+     height:310px;
+   }
+  .brand_container--long{
+    height:250px;
+
+  }
+
+  .brand_title--ny{
+    font-size:30px !important;
+  }
+  .brand_container--big{
+    height:300px;
+  }
+
+  .brand_container--sub{
+    height:142px !important;
+  }
+
+  .brand_title--z{
+    font-size:50px !important;
+    margin-left:7.5%;
+    transform:translateY(-0px);
+  }
+    .brand_text--z{
+    text-align:left;
+    margin-right:5%;
+    transform:translateX(-20px) translateY(25px);
+    font-size:30px !important;
+    width:75% !important;
+
+  }
+  .long_banner--3{
+    overflow:hidden;
+  }
+  .long_banner--3 .pallete{
+    height:150% !important;
+  }
+  .company_name_container--main .paint{
+    height:150%;
+    margin-top:-70px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+  /* Styles for iPads */
+
+  .showcase_container{
+    margin-top:15%;
+  }
+
+
+
+  .brand_title--z{
+    font-size:50px !important;
+    margin-left:7.5%;
+    transform:translateY(-0px);
+  }
+    .brand_text--z{
+    text-align:left;
+    margin-right:5%;
+    transform:translateX(-20px) translateY(-10px);
+    font-size:30px !important;
+    width:75% !important;
+
+  }
+  .long_banner--3{
+    overflow:hidden;
+  }
+
+  .company_name_container--main .paint{
+    height:150%;
+    margin-top:-70px;
+  }
+
+
+  .brand_container{
+    height:325px;
+  }
+
+  p,strong{
+    line-height:1.1;
+  }
+
+  .brand_container--long strong{
+    font-size:45px;
+    margin-top:40px;
+  }
+
+  .brand_container--long p{
+    font-size:40px;
+    margin-top:-20px;
+  }
+
+  .brand_text--s{
+    font-size:30px !important;
+    font-weight:400;
+    margin-top:-30px;
+  }
+
+  .company_name_container{
+    height:300px;
+    line-height:1
+  }
+
+  .brand_container--long{
+    height:375px;
+    width:151% ;
+  }
+
+  .brand_container--big{
+    height:300px;
+  }
+
+  .brand_container--sub{
+    height:120px;
+  }
+
+  .main_site_background--2{
+    margin-top:-30px;
+    position:absolute;
+    height:300px;
+    right:-30px;
+    opacity:1;
+  }
+
+  .main_site_background--3{
+    margin-top:-550px;
+    position:absolute;
+    height:250px;
+    transform:rotateY(180deg);
+    left:-50px;
+    opacity:1;
+   }
+
+   .graphics--deal--flower--active {
+    width: 75%;
+    right: 60.5% !important;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 320px !important;
+    z-index: 0;
+  }
+
+   .brand_title--z{
+    font-size:35px !important;
+  }
+  .brand_text--z{
+    font-size:28px !important;
+    width:100% !important;
+  }
+
+}
+
+@media  screen and (min-width: 375px) and (max-width: 712px) and (orientation:portrait) {
+
+  .main_site_background--2{
+    margin-top:1200px !important;
+    right:-40px;
+    width:220px;
+    height:220px;
+  }
+
+
+
+  .mobile-col-5-s{
+     width:100%;
+   }
+
+  .showcase_container {
+    visibility:hidden;
+    position:fixed;
+  }
+
+  #showcase_container--mobile *{
+     visibility:visible;
+  }
+
+  #showcase_container--mobile {
+    visibility:visible;
+    position:relative;
+  }
+
+  .mobile_background{
+    visibility:visible;
+    position:relative;
+  }
+
+  .company_name_container{
+    line-height:1;
+  }
+
+  .flower_graphic_showcase{
+     position:absolute;
+     width:100%;
+     z-index:0;
+     height:900px !important;
+     bottom:-100% !important;
+  }
+
+  .show_graphic{
+    position:absolute;
+    width:100%;
+    opacity:.1 !important;
+    animation:none !important;
+    /*animation: 2s ease-in grow 1;*/
+    top:-500px;
+    height:200%;
+    max-height:800px;
+   }
+
+  .show_graphic--right--2{
+    right:0%;
+    top:0px;
+    max-height:720px;
+    z-index:22;
+  }
+
+  .show_graphic--left--2{
+    right: 0%;
+    top: 10px;
+    max-height: 720px;
+    z-index: 22;
+  }
+
+  .company_name_container .title{
+    margin-top:-40px !important;
+  }
+
+  .showcase_container{
+    margin-top:35%;
+  }
+
+  .mobile-col-7-s{
+    width:100%;
+  }
+
+  .brand_container--long{
+    height:300px;
+    width:250% !important ;
+  }
+
+  .brand_title{
+    line-height:1.1;
+    font-size:50px ;
+  }
+
+  .brand_text{
+    font-size:35px;
+    margin-top:-10px;
+  }
+
+  .brand_text--s{
+    font-size:30px;
+    margin-top:-30px;
+
+  }
+  .brand_container--big{
+    height:0px;
+    position:fixed;
+    visibility:hidden;
+  }
+
+  .brand_container--sub{
+    height:0px;
+    position:fixed;
+    visibility:hidden;
+  }
+
+  .main_site_background--3{
+    margin-top:-75px !important;
+    position:absolute;
+    height:150px;
+    transform:rotateY(180deg);
+    left:-13px !important;
+    opacity:1;
+   }
+
+}
+
+@media only screen and (max-width: 844px) and (min-width: 375px) and (orientation:landscape) {
+
+  .brand_container--long{
+    height:200px !important;
+    width:150% !important;
+  }
+
+  .showcase_container{
+    margin-top:15%;
+  }
+
+  .brand_container{
+    height:250px !important;
+  }
+
+  .company_name_container{
+    height:250px !important;
+  }
+
+  .company_name_container .title {
+    margin-top: -100px !important;
+    font-size: 100px;
+  }
+
+  .brand_container--big{
+    height:250px !important;
+  }
+
+  .brand_container--sub{
+    height:120px !important;
+  }
+
+  p,strong{
+    line-height:1.1
+  }
+
+  .brand_container--long strong{
+    font-size:45px;
+    margin-top:40px;
+  }
+
+  .brand_container--long p{
+    font-size:35px;
+    margin-top:-30px;
+  }
+
+  .brand_container--long .brand_text--s{
+    font-size:30px;
+    font-weight:400;
+  }
+
+  .main_site_background--3{
+    margin-top: 130px;
+    position: absolute;
+    height: 200px;
+    transform: rotateY(180deg);
+    left: -40px;
+    opacity: 1;
+  }
+
+  .main_site_background--2{
+    margin-top: 550px;
+    height:200px;
+  }
+
+  .brand_title--z{
+    font-size:30px !important;
+    margin-left:7.5%;
+    transform:translateY(-20px);
+  }
+    .brand_text--z{
+    text-align:left;
+    margin-right:5%;
+    transform:translateX(-20px) translateY(-30px);
+    font-size:20px !important;
+    width:75% !important;
+
+  }
+  .long_banner--3{
+    overflow:hidden;
+  }
+
+  .company_name_container--main .paint{
+    height:150%;
+    margin-top:-70px;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+
+  .company_name_container--new_years .title{
+    font-size:50px !important;
+    margin-top:30px !important;
+  }
+
+  .brand_container--long--ny img{
+   object-fit:cover;
+  }
+
+  .brand_title--ny{
+    font-size:33px !important;
+    color:white;
+    position:absolute;
+    top:50px;
+    font-weight:300;
+    width:35%;
+    text-align:left !important;
+    left:10px;
+  }
+
+}
+
+@media screen and (max-width: 844px) and (min-width: 375px) and (orientation:landscape) {
+
+   .company_name_container--new_years .title{
+    font-size:50px !important;
+    margin-top:20px !important;
+  }
+
+  .brand_title--ny{
+    font-size:18px;
+    color:white;
+    position:absolute;
+    top:50px;
+    font-weight:300;
+    width:40%;
+    text-align:left !important;
+    left:25px;
+  }
+
+
+
+}
+
+
+@media screen and (min-width:1400px)  {
+   .brand_title--ny{
+    font-size:45px;
+    color:white;
+    position:absolute;
+    top:-40px;
+    font-weight:300;
+    width:35%;
+    text-align:left !important;
+    left:95px;
+  }
+
+  .company_name_container--new_years .title{
+    font-size:70px !important;
+    margin-top:20px !important;
+    z-index:9999999;
+    position:relative;
+  }
+
+  .main_site_background--2{
+     margin-top: -50px;
+  }
+
+   .main_site_background--3{
+      margin-top: -150px;
+  }
+
+.brand_title--z{
+    font-size:50px !important;
+    margin-left:7.5%;
+    transform:translateY(-0px);
+  }
+    .brand_text--z{
+    text-align:left;
+    margin-right:5%;
+    transform:translateX(-20px) translateY(10px);
+    font-size:30px !important;
+    width:75% !important;
+
+  }
+  .long_banner--3{
+    overflow:hidden;
+  }
+  .long_banner--3 .pallete{
+    height:150% !important;
+  }
+  .company_name_container--main .paint{
+    height:150%;
+  }
+
+}
+
+
+@media screen and (min-width:1700px)  {
+   .brand_title--ny{
+    font-size:45px;
+    color:white;
+    position:absolute;
+    top:-40px;
+    font-weight:300;
+    width:35%;
+    text-align:left !important;
+    left:95px;
+  }
+
+  .company_name_container .title {
+      margin-top: -100px !important;
+      font-size: 100px;
+  }
+
+  .company_name_container--new_years .title{
+    font-size:70px !important;
+    margin-top:20px !important;
+    z-index:9999999;
+    position:relative;
+  }
+
+  .main_site_background--2{
+     margin-top: -130px;
+    height:400px;
+  }
+
+   .main_site_background--3{
+      margin-top: -200px;
+  }
+
+  .brand_container{
+    height:370px !important;
+  }
+
+  .company_name_container{
+    height:370px !important;
+  }
+
+  .brand_container--big{
+    height:370px !important;
+  }
+
+  .brand_container--sub{
+    height:180px !important;
+    width:100%;
+    margin-left:-2.5%;
+  }
+
+  .brand_container--long{
+    margin-left:5px;
+  }
+
+  .brand_container--big{
+    margin-left:5px;
+  }
+
+  .brand_title--z{
+    font-size:60px !important;
+    margin-left:7.5%;
+    transform:translateY(-0px);
+  }
+  .brand_text--z{
+    text-align:left;
+    margin-right:5%;
+    transform:translateX(-20px) translateY(20px);
+    font-size:37px !important;
+    width:75% !important;
+
+  }
+  .long_banner--3{
+    overflow:hidden;
+  }
+  .long_banner--3 .pallete{
+    height:150% !important;
+  }
+  .company_name_container--main .paint{
+    height:150%;
+  }
+}

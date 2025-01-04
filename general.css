@@ -1,0 +1,128 @@
+body{
+  overflow-x: hidden;
+  background-repeat:mirror;
+  background-repeat: repeat; /* Repeats the image both horizontally and vertically */
+  background:url('https://cdn.shopify.com/s/files/1/0300/2577/7251/files/Untitled_design_-_2024-12-31T231224.367.png?v=1735711972');
+}
+
+.header--bg{
+  background:none !important;
+}
+.show--medium-large{
+  padding-top:40px;
+  position:relative;
+  z-index:99;
+   top:100px
+}
+.collection--top-row *{
+  opacity:0 !important;
+
+}
+
+.breadcrumbs--root{
+  padding-top:20px;
+}
+
+.header--mobile {
+  position:relative !important;
+  z-index:999999 !important;
+}
+.product-page--next,.product-page--previous {
+  position:relative;
+  z-index:999999999999999999;
+}
+.o-hidden{
+  overflow:hidden;
+}
+
+html{
+  font-size:12px;
+  font-family:"Teko";
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width:100%;
+}
+
+#product_galleries{
+  position:relative;
+}
+
+.absolute{
+  position:absolute;
+}
+
+.relative{
+  position:relative;
+}
+
+body {
+  font-size: 1.4em;
+}
+
+.featured-grid--item{
+  width:30%;
+}
+
+.featured-grid--title{
+  font-family:"Teko";
+  font-size:6rem !important;
+}
+
+.featured-grid--subtitle{
+  font-family:"Teko";
+  font-size:3rem !important;
+}
+
+.header--search{
+  visibility:hidden;
+}
+
+.header--logo{
+  position:absolute;
+  top:-20%;
+  left:0%;
+}
+
+.header--root{
+  position:absolute;
+  top:0;
+  z-index:99;
+  width:100%;
+  height:100%;
+}
+
+.featured-grid--root {
+  position:relative !important;
+  z-index:99 !important;
+  margin-top:25px ;
+}
+
+.header--cart{
+  position: absolute;
+  right: 0%;
+  top: -700%;
+  right: 0%;
+}
+
+.header--menu{
+  position:absolute;
+  width:100%;
+  top:-9rem;
+}
+
+.custom-content--root{
+  width:100% !important;
+  padding:0% !important;
+  max-width:100% !important;
+}
